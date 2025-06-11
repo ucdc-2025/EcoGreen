@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
       rel="stylesheet"
@@ -13,6 +13,11 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Beranda</title>
   </head>
   <body>
     <!-- Navbar Section -->
@@ -24,7 +29,7 @@
           <!-- LOGO di kiri -->
           <div class="flex items-center animate-on-scroll from-left">
             <img
-              src="../images/logo_ecogreen.png"
+              src="images/logo_ecogreen.png"
               alt="Logo"
               class="h-15 w-auto"
             />
@@ -177,185 +182,105 @@
       </div>
     </nav>
 
-    <section id="zona-edukasi" class="bg-white py-30 px-4 sm:px-6 lg:px-8">
-      <div class="max-w-7xl mx-auto">
-        <div
-          class="flex flex-col sm:flex-row items-center justify-between mb-12 animate-on-scroll from-top"
+    <section class="bg-white py-30 px-4 sm:px-6 lg:px-8">
+      <div class="max-w-7xl mx-auto text-center animate-on-scroll from-top">
+        <p
+          class="text-xs uppercase tracking-widest text-green-700 mb-2 font-inter"
         >
-          <h2
-            class="text-3xl font-bold text-[#303E33] mb-6 sm:mb-0 font-poppins"
-          >
-            Zona Edukasi
-          </h2>
-          <div class="flex space-x-1 font-inter">
-            <button
-              class="rounded-md border border-slate-300 py-2 px-3 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
-            >
-              Prev
-            </button>
-            <button
-              class="min-w-9 rounded-md bg-slate-800 py-2 px-3 border border-transparent text-center text-sm text-white transition-all shadow-md hover:shadow-lg focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
-            >
-              1
-            </button>
-            <button
-              class="min-w-9 rounded-md border border-slate-300 py-2 px-3 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
-            >
-              2
-            </button>
-            <button
-              class="min-w-9 rounded-md border border-slate-300 py-2 px-3 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
-            >
-              3
-            </button>
-            <button
-              class="min-w-9 rounded-md border border-slate-300 py-2 px-3 text-center text-sm transition-all shadow-sm hover:shadow-lg text-slate-600 hover:text-white hover:bg-slate-800 hover:border-slate-800 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none ml-2"
-            >
-              Next
-            </button>
-          </div>
-        </div>
+          BERSAMA UNTUK BUMI
+        </p>
+        <h2
+          class="text-3xl sm:text-4xl font-bold text-gray-800 font-poppins mb-6"
+        >
+          Komunitas EcoGreen: Bergerak Bersama, Lebih Bermakna
+        </h2>
+        <p
+          class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto font-inter mb-10"
+        >
+          Gabung dengan ribuan individu, aktivis, pelajar, dan profesional yang
+          memiliki visi yang sama: menjadikan bumi tempat yang lebih baik
+          melalui aksi kolaboratif. Di sini, setiap suara dan aksi kamu berarti.
+        </p>
+      </div>
 
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      >
         <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-on-scroll from-bottom"
+          class="bg-[#F0F9F7] p-6 rounded-xl shadow-sm border border-gray-200 animate-on-scroll from-left"
         >
-          <a href="#" class="group relative block bg-black rounded-3xl">
-            <img
-              alt="Daur Ulang"
-              src="../images/recycle.png"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-3xl"
-            />
-            <div class="relative p-4 sm:p-6 lg:p-8">
-              <p class="text-xl font-bold text-white sm:text-2xl">
-                Pentingnya Daur Ulang untuk Lingkungan
-              </p>
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Daur ulang membantu mengurangi limbah, menghemat sumber
-                    daya, dan menjaga kelestarian lingkungan untuk generasi
-                    mendatang.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="group relative block bg-black rounded-3xl">
-            <img
-              alt="Energi Matahari"
-              src="../images/panel_3.jpg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-3xl"
-            />
-            <div class="relative p-4 sm:p-6 lg:p-8">
-              <p class="text-xl font-bold text-white sm:text-2xl">
-                Mengapa Energi Surya Penting untuk Masa Depan?
-              </p>
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Energi matahari adalah sumber energi bersih dan tak terbatas
-                    yang mampu menggantikan bahan bakar fosil demi bumi yang
-                    lebih hijau.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="group relative block bg-black rounded-3xl">
-            <img
-              alt="Iklim"
-              src="../images/iklim.jpg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-3xl"
-            />
-            <div class="relative p-4 sm:p-6 lg:p-8">
-              <p class="text-xl font-bold text-white sm:text-2xl">
-                Dampak Perubahan Iklim yang Perlu Kita Ketahui
-              </p>
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Perubahan iklim menyebabkan kenaikan suhu global, cuaca
-                    ekstrem, dan ancaman terhadap kehidupan makhluk hidup di
-                    bumi.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="group relative block bg-black rounded-3xl">
-            <img
-              alt="Sampah Laut"
-              src="../images/sea_trash.jpeg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-3xl"
-            />
-            <div class="relative p-4 sm:p-6 lg:p-8">
-              <p class="text-xl font-bold text-white sm:text-2xl">
-                Bahaya Sampah Plastik di Laut dan Cara Menguranginya
-              </p>
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Laut bukan tempat sampah. Pelajari bagaimana plastik merusak
-                    ekosistem laut dan apa yang bisa kita lakukan untuk
-                    mencegahnya.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="group relative block bg-black rounded-3xl">
-            <img
-              alt="Generasi Hijau Muda"
-              src="../images/green_generation.jpeg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-3xl"
-            />
-            <div class="relative p-4 sm:p-6 lg:p-8">
-              <p class="text-xl font-bold text-white sm:text-2xl">
-                Langkah Hijau Generasi Muda: Apa yang Bisa Kamu Lakukan?”
-              </p>
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Bawa tumbler, kurangi fast fashion, tanam pohon. Perubahan
-                    besar dimulai dari kebiasaan kecil yang konsisten.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="group relative block bg-black rounded-3xl">
-            <img
-              alt="Polusi Karbon"
-              src="../images/carbon_pollution.jpeg"
-              class="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 rounded-3xl"
-            />
-            <div class="relative p-4 sm:p-6 lg:p-8">
-              <p class="text-xl font-bold text-white sm:text-2xl">
-                Apa Itu Jejak Karbon dan Bagaimana Menguranginya?
-              </p>
-              <div class="mt-32 sm:mt-48 lg:mt-64">
-                <div
-                  class="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-                >
-                  <p class="text-sm text-white">
-                    Setiap aktivitas meninggalkan jejak karbon. Yuk, hitung dan
-                    kurangi emisi kita untuk masa depan yang lebih bersih.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </a>
+          <h3 class="text-lg font-semibold text-gray-800 mb-2 font-poppins">
+            Forum Diskusi Hijau
+          </h3>
+          <p class="text-sm text-gray-600 font-inter">
+            Tempat berdiskusi, bertanya, dan berbagi ide inovatif antar anggota
+            komunitas secara terbuka.
+          </p>
         </div>
+        <div
+          class="bg-[#F0F9F7] p-6 rounded-xl shadow-sm border border-gray-200 animate-on-scroll from-bottom"
+        >
+          <h3 class="text-lg font-semibold text-gray-800 mb-2 font-poppins">
+            Kolaborasi Proyek
+          </h3>
+          <p class="text-sm text-gray-600 font-inter">
+            Temukan tim atau relawan untuk mendukung proyek hijau kamu – dari
+            edukasi hingga konservasi.
+          </p>
+        </div>
+        <div
+          class="bg-[#F0F9F7] p-6 rounded-xl shadow-sm border border-gray-200 animate-on-scroll from-right"
+        >
+          <h3 class="text-lg font-semibold text-gray-800 mb-2 font-poppins">
+            Agenda & Event
+          </h3>
+          <p class="text-sm text-gray-600 font-inter">
+            Ikuti kalender aksi komunitas seperti webinar, aksi bersih pantai,
+            atau pelatihan pemuda peduli lingkungan.
+          </p>
+        </div>
+        <div
+          class="bg-[#F0F9F7] p-6 rounded-xl shadow-sm border border-gray-200 animate-on-scroll from-top"
+        >
+          <h3 class="text-lg font-semibold text-gray-800 mb-2 font-poppins">
+            Cerita Anggota
+          </h3>
+          <p class="text-sm text-gray-600 font-inter">
+            Baca kisah inspiratif dari komunitas, mulai dari perubahan gaya
+            hidup hingga proyek lingkungan sukses.
+          </p>
+        </div>
+        <div
+          class="bg-[#F0F9F7] p-6 rounded-xl shadow-sm border border-gray-200 animate-on-scroll from-left"
+        >
+          <h3 class="text-lg font-semibold text-gray-800 mb-2 font-poppins">
+            Pojok Relawan
+          </h3>
+          <p class="text-sm text-gray-600 font-inter">
+            Ingin berkontribusi lebih? Lihat peluang menjadi relawan dalam
+            kegiatan atau misi EcoGreen.
+          </p>
+        </div>
+        <div
+          class="bg-[#F0F9F7] p-6 rounded-xl shadow-sm border border-gray-200 animate-on-scroll from-top"
+        >
+          <h3 class="text-lg font-semibold text-gray-800 mb-2 font-poppins">
+            Gabung Sekarang
+          </h3>
+          <p class="text-sm text-gray-600 font-inter">
+            Daftarkan dirimu, buat profil hijau kamu, dan mulai berinteraksi
+            dengan komunitas dari seluruh Indonesia.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-center mt-12">
+        <a
+          href="#"
+          class="inline-block bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition"
+        >
+          Bergabung dengan Komunitas
+        </a>
       </div>
     </section>
 
@@ -372,7 +297,7 @@
       >
         <div class="max-w-sm">
           <img
-            src="../images/logo_ecogreen.png"
+            src="images/logo_ecogreen.png"
             alt="Logo EcoGreen"
             class="h-15 w-auto mb-4"
           />
@@ -483,7 +408,6 @@
         <p>© 2025 EcoGreen. All rights reserved.</p>
       </div>
     </footer>
-
     <script>
       // Dropdown Toggle (Desktop)
       const dropdownBtn = document.getElementById("dropdownButton");
